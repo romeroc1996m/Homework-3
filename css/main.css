@@ -21,9 +21,17 @@ body {
     height: 200px;
 }
 
+#box1:hover {
+    opacity: 0.5;
+}
+
 #box2 {
     background-color: red;
     height: 200px;
+}
+
+#box2:hover {
+    opacity: 0.5;
 }
 
 @media screen and (min-width: 641px) {
@@ -38,10 +46,18 @@ body {
         width: 25%;
     }
     
+    #box1:hover {
+        opacity: 0.5;
+    }
+
     #box2 {
         background-color: purple;
         height: 200px;
         width: 25%;
+    }
+
+    #box2:hover {
+        opacity: 0.5;
     }
     
     #box3 {
@@ -51,10 +67,18 @@ body {
         display: block;
     }
     
+    #box3:hover {
+        opacity: 0.5;
+    }
+
     #box4 {
         background-color: brown;
         height: 200px;
         width: 25%;
         display: block;
+    }
+
+    #box4:hover {
+        opacity: 0.5;
     }
 }
